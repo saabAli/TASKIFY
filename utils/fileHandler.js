@@ -12,10 +12,8 @@ exports.readTasksFromFile = () => {
         this.writeTaskToFile([])
     }
 
-
-
-
-
+    const data = fs.readFilesync(filepath);
+    return JSON.parse(data)
 
 }
 
