@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dive": "node --watch app .js"
+    "dev": "node --watch app .js"
   },
   "keywords": [],
   "author": "",
@@ -13,4 +13,7 @@
   "dependencies": {
     "formidable": "^3.5.2"
   }
+
+  
+  
 }
